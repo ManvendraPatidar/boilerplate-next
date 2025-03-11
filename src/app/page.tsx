@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import axios from "axios";
-import { apiServices } from "@/services/apiCalls";
+import { apiServices } from "@/services/apiServices";
 
 export default function Home() {
   const [data, setData] = useState<string | null>(null);
